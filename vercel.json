@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "redirects": [
+  "routes": [
     {
       "src": "/assets/(.*)",
       "dest": "/assets/$1",
@@ -12,7 +12,5 @@
       "src": "/(.*)",
       "dest": "/html/index.html"
     }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  ]
 }
