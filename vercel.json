@@ -1,4 +1,6 @@
 {
   "rewrites": [{ "source": "/(.*)", "destination": "/html/index.html" }],
-  "routes": [{ "src": "/assets/(.*)", "dest": "/assets/$1" }]
+  "redirects": [
+    { "source": "/assets/(.*)", "destination": "/assets/$1", "type": 200 }
+  ]
 }
