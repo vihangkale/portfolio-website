@@ -81,6 +81,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
+  padding: 0;
 }
 
 .fw-bold {
