@@ -1,6 +1,3 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/html/index.html" }],
-  "redirects": [
-    { "source": "/assets/(.*)", "destination": "/assets/$1", "type": 200 }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/html/index.html" }]
 }
