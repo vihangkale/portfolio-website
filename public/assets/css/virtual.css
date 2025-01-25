@@ -1105,6 +1105,7 @@ a:active {
   float: left;
   margin: 16px 0;
   padding: 0 16px;
+  min-height: 250px;
 }
 
 .grid-item,
@@ -1114,7 +1115,7 @@ a:active {
 
 .grid-item img {
   width: 100%;
-  height: 100%;
+  height: 250px;
 }
 
 .grid-item .img-place {
