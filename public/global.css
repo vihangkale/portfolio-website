@@ -81,3 +81,6 @@ button:focus {
     margin-top: 2rem;
   }
 }
+.pi-12 {
+  padding-inline: 12px !important;
+}
