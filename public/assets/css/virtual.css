@@ -131,7 +131,6 @@ a:active {
 .img-place > img {
   width: 100%;
   height: 100%;
-  object: contain;
 }
 
 /* Overlay */
@@ -1105,7 +1104,7 @@ a:active {
   display: block;
   float: left;
   margin: 16px 0;
-  padding: 0 16px;
+  padding: 0 14px;
   min-height: 250px;
 }
 
@@ -1471,7 +1470,12 @@ a:active {
   border-color: #6f42c1;
 }
 .profile-container {
-  height: calc(100% - 67px);
+  height: max-content;
+}
+@media only screen and (min-width: 991px) {
+  .profile-container {
+    height: calc(100vh - 67px);
+  }
 }
 .margin-block-auto {
   margin-block: auto;

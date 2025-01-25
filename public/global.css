@@ -69,6 +69,10 @@ button:focus {
 .max-width-1210 {
   max-width: 1210px !important;
 }
-.mt-4rem {
-  margin-top: 4rem !important;
+.project-link {
+  text-decoration: none;
+  color: #fff !important;
+}
+.object-fit-contain {
+  object-fit: contain;
 }
