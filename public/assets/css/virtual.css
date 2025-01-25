@@ -130,7 +130,8 @@ a:active {
 
 .img-place > img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object: contain;
 }
 
 /* Overlay */
@@ -1468,4 +1469,10 @@ a:active {
 
 .theme-purple .theme-list li::before {
   border-color: #6f42c1;
+}
+.profile-container {
+  height: calc(100% - 67px);
+}
+.margin-block-auto {
+  margin-block: auto;
 }
